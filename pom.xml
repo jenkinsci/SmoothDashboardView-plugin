@@ -11,8 +11,7 @@
   <groupId>com.nsn.hudson.plugins</groupId>
   <artifactId>SmoothDashboardView</artifactId>
   <name>SmoothDashboardView</name>
-  <version>1.0-SNAPSHOT</version>
-  <description>This plug-in provides utilities for getting svn info from upstream job to downstream job</description>
+  <version>1.0</version>
   <url>http://wiki.hudson-ci.org/display/HUDSON/SmoothDashboardView</url>
   <packaging>hpi</packaging>
   
@@ -74,4 +73,10 @@
       <url>http://maven.glassfish.org/content/groups/public/</url>
     </pluginRepository>
   </pluginRepositories>
+
+  <scm>
+    <connection>scm:svn:https://guest@svn.dev.java.net/svn/hudson/tags/SmoothDashboardView-1.0</connection>
+    <developerConnection>scm:svn:https://svn.dev.java.net/svn/hudson/tags/SmoothDashboardView-1.0</developerConnection>
+    <url>https://hudson.dev.java.net/source/browse/hudson/tags/SmoothDashboardView-1.0</url>
+  </scm>
 </project>
