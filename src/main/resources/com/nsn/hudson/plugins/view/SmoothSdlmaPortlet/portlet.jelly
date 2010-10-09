@@ -1,0 +1,9 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:dp="/hudson/plugins/view/dashboard" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+    <dp:decorate portlet="${it}">
+    <tr><td>
+      <div align="center">
+         <img src="${it.url}summaryGraph/png?width=600&amp;height=440" lazymap="${it.url}trendGraph/map"/>
+       </div>
+     </td></tr>
+    </dp:decorate>
+</j:jelly>
